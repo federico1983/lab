@@ -1,3 +1,4 @@
 lab50:
   files:
-    - !include prova.c
+    - !exclude "*"
+    - !include "*.c"
